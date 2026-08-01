@@ -12,8 +12,8 @@ config_version=5
 
 config/name="OLED 128x64 2D"
 config/description="Software to draw and export screen 128x64 for SSD1306 projects."
-run/main_scene="uid://dnv88k2tdgj7i"
-config/features=PackedStringArray("4.6", "GL Compatibility")
+run/main_scene="uid://7aqdjqq0w2ri"
+config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [physics]
@@ -25,3 +25,4 @@ config/icon="res://icon.svg"
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
